@@ -1,0 +1,17 @@
+{
+    "name": "Snack Corner",
+    "short_name": "Snacks",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#4CAF50",
+    "description": "The best burgers and pizzas in town.",
+    "icons": [
+      {
+        "src": "favi.png",
+        "sizes": "96x96",
+        "type": "image/png"
+      }
+    ]
+  }
+  
