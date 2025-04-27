@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Snack Corner</title>
+    <link rel="stylesheet" href="index.css" />
+    <script type="module" src="index.js"></script>
+</head>
+<body>
+    <div class="header">
+        <img src="banner.jpeg" alt="top-banner" />
+        <div class="header-text">
+            <h1>Snack Corner</h1>
+            <p>The best burgers and pizzas in town.</p>
+        </div>
+    </div>
+
+    <main id="menu-container"></main>
+    <div id="payment-modal" class="modal hidden">
+        <div class="modal-content">
+          <h2>Enter card details</h2>
+          <input type="text" placeholder="Enter your name" id="name-input">
+          <input type="text" placeholder="Enter card number" id="card-input">
+          <input type="text" placeholder="Enter CVV" id="cvv-input">
+          <img src="gpay.jpg" id="scan" alt="scan">
+          <button id="pay-btn">Pay</button>
+        </div>
+      </div>
+      
+
+    
+</body>
+</html>

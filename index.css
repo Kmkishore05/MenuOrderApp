@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'Smythe';
+    src: url('Smythe-Regular.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    font-family: 'Smythe', sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+.header {
+    position: relative;
+    text-align: left;
+}
+
+.header img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.header-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    text-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+main#menu-container {
+    padding: 20px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 20px 0;
+}
+
+.menu-left {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.menu-left .emoji {
+    font-size: 40px;
+}
+
+.menu-details h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.menu-details p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.menu-details .price {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.add-btn {
+    font-size: 24px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#order-container {
+    margin: 20px;
+    padding-top: 20px;
+    border-top: 2px solid #ccc;
+}
+
+.order-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.remove-btn {
+    margin: 0 10px;
+    background: none;
+    border: none;
+    color: #d9534f;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#total-price-container {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#complete-order-btn {
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+    background-color: #16db99;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#complete-order-btn:hover {
+    background-color: #13c38d;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .modal-content input {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .modal-content button {
+    width: 100%;
+    padding: 0.7rem;
+    background: #00c853;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+#scan{
+   width: 100px;
+   height: 100px ;
+  }
